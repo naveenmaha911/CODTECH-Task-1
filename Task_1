@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>File Handling Utility</title>
+    <link rel="stylesheet" href="/CSS/styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>File Handling Utility</h1>
+
+        <div class="file-actions">
+            <input type="file" id="fileInput" accept=".txt" />
+            <button id="readFileBtn">Read File</button>
+            <button id="saveFileBtn">Save File</button>
+            <button id="downloadFileBtn" style="display:none;">Download File</button>
+        </div>
+
+        <div class="file-content">
+            <h2>File Content:</h2>
+            <textarea id="fileContent" rows="10" cols="50" placeholder="File content will be shown here..." disabled></textarea>
+        </div>
+    </div>
+
+    <script src="/js/text.js"></script>
+</body>
+</html>
